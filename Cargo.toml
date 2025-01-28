@@ -1,0 +1,13 @@
+[package]
+name = "darkbird_actix_crud"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0.0-beta.8"
+darkbird = "6.2.4"  # Replace with the correct version
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+futures = "0.3"
+uuid = "1.12.1"
